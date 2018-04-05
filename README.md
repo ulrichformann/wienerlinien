@@ -9,8 +9,6 @@ You will need an API-key witch you can obtain [`here`](https://go.gv.at/l9ogdech
 
 ```
 npm i wienerlinien
-#or
-yarn add wienerlinien
 ```
 
 ## Usage
