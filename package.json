@@ -1,13 +1,14 @@
 {
   "name": "wienerlinien",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Nodejs Wiener Linien API",
-  "main": "main.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,16 @@
     "wienerlinien",
     "wiener",
     "linien",
-    "api",
-    "oebb"
+    "api"
   ],
   "author": "Ulrich Formann",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ulrichformann/wienerlinien/issues"
   },
-  "homepage": "https://github.com/ulrichformann/wienerlinien#readme"
+  "homepage": "https://github.com/ulrichformann/wienerlinien#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "engines" : { "node" : ">=7.6.0" }
 }
